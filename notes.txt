@@ -1,0 +1,63 @@
+------------------------
+
+Présentation Bootstrap :
+
+What is it ???
+
+Librairie CSS / HTML / Javascript 
+3 technologies
+
+L'objectif de cette librairie permet de créer un site internet très rapidement
+
+Starter / Boilerplat
+
+https://w3techs.com/technologies/overview/javascript_library
+
+très très utilisée et appréciée par les développeurs 
+
+-------------------------
+
+Petite comparaison avec jQuery : plus simple 
+
+la majorité des manipulations que nous allons réalisées vont se passer 
+dans le html
+
+
+
+le point important c'est L'ORGANISATION du HTML 
+
+-------------------------
+
+google > webdevpro > 
+
+http://formation.webdevpro.net/bootstrap/
+
+login : bootstrap
+mot de passe : bootstrap
+
+
+https://w3techs.com/technologies/overview/javascript_library
+
+
+-------------------------
+
+
+Nous allons utiliser la dernière version de Bootstrap : 4.4 
+
+avoir idée du futur de la librairie => github
+
+
+
+
+-------------------------
+
+dans le bureau windows (à côté du dossier jquery) créer un nouveau dossier
+intitulé bootstrap
+
+
+
+
+
+
+
+
