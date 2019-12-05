@@ -1,0 +1,89 @@
+<!-- 01-install.html -->
+
+<!-- installer la librairie 
+rappel librairie : 
+des fichiers sui contiennent plein de code
+pour pouvoir utiliser la librairie, il faut au préalable l'installer 
+sur la documentation officielle :
+
+https://getbootstrap.com/ 
+Get Started
+Copier et coller le starter template 
+ce code html est composé du code suivant 
+
+    un structure classique de page html 
+        <!doctype html>
+        <html lang="en">
+            <head>
+            </head>
+            <body>
+            </body>
+        </html>
+
+Dans la balise head deux balises importantes
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+=> permettre de gérer le responsive design
+=> parce quelle donne l'instruction au navigateur
+            la page html doit prendre 100% de la largeur de l'écran 
+            quelquesoit le type d'écran : smartphone / tablette / PC
+
+            Responsive design = adapter le design d'un site en fonction de l'écran qui va le lire 
+
+            Attention ne pas confondre une Application Mobile avec un site internet Responsive design 
+
+            Application Mobile fonctionne même sans connexion internet (quelques pages de l'application = le Application Mobile stocke des pages et des infos sur le Smartphone )
+            Alors qu'un site internet Responsive design ne fonctionne que si tu as une connexion internet 
+
+            pour un site internet Responsive design il faut passer par Firefox / Chrome  
+            Application Mobile : Java (Android) / Swift (MacOS)
+            site internet Responsive design : HTML / CSS / JS (jQuery)
+
+            Nous allons réaliser des sites internets  Responsive design
+
+
+<link rel="stylesheet" href="" >
+avec cette balise , nous avons télécharger et mis à disposition la librairie Bootstrap 
+
+CDN : stype de serveur qui garantit un envoie ultra rapide de la librairie
+
+
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- 
+    à côté de la balise fermante </body> vous avez 3 librairies javascript qui ont téléchargée 
+    La 1ère librairie : jquery 
+    La 2ème librairie : popper.js
+    la Dernière : bootstrap.min.js
+
+    Attention à l'ordre car bootstrap.min.js est DEPENDANT de jQuery 
+    on ne peut pas utiliser la librairie bootstrap.min.js si on n'a pas téléchargé au préalable jquery et popper.js
+
+    Dans l'entête => css 
+    Dans le pieds de page => js
+
+    Attention bootstr
+-->
